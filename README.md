@@ -35,6 +35,11 @@ The platform works both ways:
 - Cloud Firestore – real-time database for users, bookings, profiles, and ratings
 - Firebase Storage – storing profile images, certifications, and service photos
 
+## Demo Account
+  Email: Juanadelacruz@gmail.com
+  Password: fourleafcoder
+
+For demo purposes only. Please do not modify account data.
 ## Impact
 
 HandyJuan transforms existing local skills into visible, trusted, and accessible livelihood opportunities. It helps workers receive more consistent service requests while helping residents find reliable help within their community.
