@@ -1,75 +1,62 @@
-HandyJuan
-
-HandyJuan is a FlutterFlow and Firebase-powered hyperlocal service platform that helps local workers gain visibility, build trust, and connect with nearby residents. It enables real-time service discovery and highlights trust signals such as ratings, certifications, responsiveness, and proximity.
-
-Problem
-
-Many local service workers such as plumbers (tuberos), electricians, cleaners, drivers, tutors, and manicurists are skilled and actively looking for work, but they are not well represented in formal job platforms.
-
-Most rely on word of mouth, Facebook posts, or random referrals, which often lack structure, visibility, and trust.
-
-At the same time, residents who need help often struggle to find nearby and reliable workers.
-
-Solution
-
-HandyJuan provides a simple platform where residents can find nearby workers, while local workers can showcase their services and receive service requests.
-
-The platform works both ways:
-
-Residents can find reliable nearby services
-Workers can become visible and build their reputation
-Users can both hire and offer services (dual-role system)
-Key Features
-Hyperlocal worker discovery based on location
-Worker profiles with skills, services, and certifications
-Ratings and reviews for trust and credibility
-Responsiveness indicators for better decision-making
-Real-time service discovery (prototype-level booking flow)
-Dual-role system (users can both hire and offer services)
-Tech Stack
-FlutterFlow – UI design and app development
-Firebase Authentication – user login and account management
-Cloud Firestore – real-time database for users and profiles
-Firebase Storage – storing images and documents
-Demo Account
-
-To explore the platform, you may use the following demo account:
-
-Email: demo@handyjuan.com
-Password: demo1234
-
-Note: This is a test account for demonstration purposes only.
-
-How to Run Locally
-Option 1 (Recommended – Fastest)
-Open the FlutterFlow project
-Click Test Mode
-Open the generated link in your browser or mobile device
-Option 2 (FlutterFlow Local Run)
-Enable Developer Options on your Android device
-Turn on USB Debugging
-Connect your device via USB
-Open FlutterFlow → Test, Run & Publish
-Click Run on your connected device
-Option 3 (Export Code)
-Push project to GitHub via FlutterFlow
-Open project in Android Studio
-Run using a physical device or emulator
-Impact
-
-HandyJuan transforms existing local skills into visible, trusted, and accessible opportunities. It helps workers gain more consistent visibility while enabling residents to find reliable services within their community.
-
+LocalSkill Connect
 Project Overview
 Specific Problem
 
-Lack of structured platforms connecting informal workers to local demand.
+Many local residents and informal workers lack access to structured job platforms. Skilled workers such as electricians, plumbers, tutors, and helpers often rely on informal channels like word-of-mouth or social media, which lack visibility, organization, and trust. Meanwhile, residents struggle to find reliable and nearby service providers.
 
 Proposed Solution
 
-A hyperlocal platform that connects users and service providers through trust-based signals and proximity.
+LocalSkill Connect is a hyperlocal service-matching platform that connects residents with nearby skilled workers. It enables users to both request and offer services within their community, while building trust through structured profiles, ratings, certifications, and responsiveness metrics.
 
-Features Used
-Real-time data (Firebase)
-User profiles and ratings
-Location-based discovery
-Dual-role user system
+The platform is designed to be accessible, inclusive, and community-driven, supporting informal workers in gaining consistent opportunities.
+
+Features Used to Implement the Solution
+Location-based worker discovery 
+Dual-role system (users can be both service seekers and providers)
+Worker profiles with skills, certifications, and portfolios
+Ratings and reviews system
+Badge and credibility system
+Responsiveness tracking (reply time and acceptance rate)
+Hyperlocal matching based on proximity and availability
+Basic analytics dashboard for service demand trends
+AI assistant (Google Gemini) for recommendations and guidance
+Repository Contents
+✔ Project Code
+✔ README with overview and credits
+✔ Guide to run on localhost (see below)
+How to Run on Localhost
+Install Flutter SDK
+
+Run:
+
+flutter doctor
+Open the project in FlutterFlow or VS Code
+Connect a device or use Chrome
+
+Run:
+
+flutter run
+Tech Stack / Credits
+Flutter / FlutterFlow
+Firebase (Authentication, Firestore)
+Google Gemini API
+Android SDK
+PPT / Slide Deck
+
+[(Insert your Canva / Google Slides link here)](https://canva.link/5qlonaonk2vvwjx)
+
+Prototype / Minimum Viable Product
+
+The application prototype is developed using FlutterFlow and demonstrates:
+
+User authentication
+Worker discovery interface
+Profile system
+Booking interaction flow
+Basic trust indicators (ratings, badges)
+
+Team Members
+Mary Ruth Batac
+Carla R. Mabutas
+Romaine Kate Sison
+Mariel Kim R. Vaflor
