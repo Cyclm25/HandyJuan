@@ -1,29 +1,29 @@
-LocalSkill Connect
+HandyJuan
 Project Overview
 Specific Problem
 
-Many local residents and informal workers lack access to structured job platforms. Skilled workers such as electricians, plumbers, tutors, and helpers often rely on informal channels like word-of-mouth or social media, which lack visibility, organization, and trust. Meanwhile, residents struggle to find reliable and nearby service providers.
+Many local service workers (e.g., plumbers, electricians, tutors, drivers) rely on informal channels such as word-of-mouth or social media, which lack visibility, structure, and trust. At the same time, residents often cannot easily find reliable and nearby service providers.
 
 Proposed Solution
 
-LocalSkill Connect is a hyperlocal service-matching platform that connects residents with nearby skilled workers. It enables users to both request and offer services within their community, while building trust through structured profiles, ratings, certifications, and responsiveness metrics.
+HandyJuan is a hyperlocal service-matching platform that connects residents with nearby skilled workers. It enables users to both request and offer services within their community while building trust through structured profiles, ratings, certifications, and responsiveness metrics.
 
-The platform is designed to be accessible, inclusive, and community-driven, supporting informal workers in gaining consistent opportunities.
+The system is designed to improve accessibility, transparency, and livelihood opportunities for informal workers.
 
 Features Used to Implement the Solution
-Location-based worker discovery 
+Location-based service discovery (e.g., within a set radius)
 Dual-role system (users can be both service seekers and providers)
-Worker profiles with skills, certifications, and portfolios
+Worker profiles with skills, certifications, and service details
 Ratings and reviews system
-Badge and credibility system
+Badge and credibility indicators
 Responsiveness tracking (reply time and acceptance rate)
 Hyperlocal matching based on proximity and availability
-Basic analytics dashboard for service demand trends
-AI assistant (Google Gemini) for recommendations and guidance
+Booking request and management flow
+
 Repository Contents
-✔ Project Code
-✔ README with overview and credits
-✔ Guide to run on localhost (see below)
+Project Code
+README with overview and credits
+Guide to run on localhost
 How to Run on Localhost
 Install Flutter SDK
 
@@ -43,20 +43,23 @@ Google Gemini API
 Android SDK
 PPT / Slide Deck
 
-[(Insert your Canva / Google Slides link here)](https://canva.link/5qlonaonk2vvwjx)
+[(Add your Canva or Google Slides link here)](https://canva.link/5qlonaonk2vvwjx)
 
 Prototype / Minimum Viable Product
 
-The application prototype is developed using FlutterFlow and demonstrates:
+The HandyJuan prototype demonstrates:
 
 User authentication
 Worker discovery interface
 Profile system
 Booking interaction flow
-Basic trust indicators (ratings, badges)
+Trust indicators such as ratings, badges, and responsiveness
 
 Team Members
 Mary Ruth Batac
 Carla R. Mabutas
 Romaine Kate Sison
 Mariel Kim R. Vaflor
+License
+
+This project is developed for academic and hackathon purposes.
